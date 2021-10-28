@@ -1,13 +1,120 @@
+* {
+    margin: 0;
+}
+
+.firstImage {
+    /* The image used */
+    /* background-image: url(../static/login-bg.jpg); */
+    /* Full height */
+    height: 100%;
+    width: 30%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+.center-image-padding {
+    padding-top: 100px;
+}
+
+.img-icon {
+    height: 70px;
+    width: 70px;
+    padding: 4%;
+}
+
+.wavi {
+    width: 22%;
+}
+
+.details-down-icon {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+.img-icon {
+    height: 70px;
+    width: 70px;
+}
+
+.center-image {
+    height: fit-content;
+    width: fit-content;
+}
+
+.wavi {
+    width: 220px;
+}
+
+.details-down-icon {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+@media only screen and (max-width: 730px) {
+    body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    code {
+        font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    }
+    .img-icon {
+        height: 70px;
+        width: 70px;
+    }
+    .details-down-icon {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .center-image {
+        height: 50%;
+        width: 50%;
+    }
+    .wavi {
+        width: 110px;
+    }
+    .center-image-padding {
+        padding-top: 50px;
+        height: 220px;
+        width: 220px;
+    }
+    .firstImage {
+        /* The image used */
+        /* background-image: url(../static/login-bg.jpg); */
+        /* Full height */
+        height: 100%;
+        width: 100%;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+/* wave {
+  height: 0px;
+} */
