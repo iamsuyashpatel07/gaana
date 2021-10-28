@@ -34,12 +34,7 @@ export default class App extends React.Component {
         <center>
           <div
             style={{
-              // paddingTop: "0px%",
-              // height: "100%",
-              // backgroundSize: "100%",
               backgroundImage: "url(" + this.state.person + ")",
-              // width: "420px",
-              // color: "#f5f5f5",
             }}
             className="firstImage"
           >
