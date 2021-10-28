@@ -26,7 +26,7 @@ export default class App extends React.Component {
     }
 
     if (!this.state.person) {
-      return <div> didn 't get a person</div>;
+      return <div> didn't get a person</div>;
     }
 
     return (
